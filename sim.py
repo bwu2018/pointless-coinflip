@@ -42,8 +42,9 @@ def main():
                     print(f'Total coins flipped {total_coins}')
                 if flags.count:
                     print(f'Coins flipped since last streak {streak_coins}')
+                streak_coins = 0
             curr_count = 1
-            streak_coins = 0
+            
 
         prev_coin = curr_coin
 
